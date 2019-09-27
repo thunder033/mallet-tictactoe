@@ -1,0 +1,28 @@
+{
+  "name": "mallet-tictactoe",
+  "version": "1.0.0",
+  "description": "TicTacToe implemented with Mallet engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Greg Rozmarynowycz <greg@thunderlab.net> (http://thunderlab.net)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/angular": "^1.6.32",
+    "@types/angular-ui-router": "^1.1.39",
+    "@uirouter/angularjs": "^1.0.6",
+    "angular": "^1.6.6",
+    "bind-decorator": "^1.0.11",
+    "pulsar-lib": "github:thunder033/pulsar-lib",
+    "reflect-metadata": "^0.1.10",
+    "ts-loader": "^3.2.0",
+    "tslint": "^5.7.0",
+    "typescript": "2.5.3",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "mallet": "file:../mallet",
+    "mallet-dev": "file:../mallet/dist"
+  }
+}
